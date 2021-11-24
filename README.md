@@ -25,10 +25,10 @@ This project consist to developp an application witch can choose the best combin
 1. Create a folder and put all the files inside it.
 2. Create a virtual environment - `python -m venv env`
 3. Activate VirtualENV 
-  - On Windows, run: `env\Scripts\activate.bat`
-  - On Unix or MacOS, run: `source env/bin/activate`
+    - On Windows, run: `env\Scripts\activate.bat`
+    - On Unix or MacOS, run: `source env/bin/activate`
 5. Run requirements.txt - `pip install -r requirements.txt`
 6. How to run the following Applications 
-  - brutforce.py: `python brutforce.py`
-  - optimized.py: `python optimized.py`
-  - main.py: `python main.py`
+    - brutforce.py: `python brutforce.py`
+    - optimized.py: `python optimized.py`
+    - main.py: `python main.py`
