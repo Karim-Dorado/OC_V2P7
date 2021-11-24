@@ -1,6 +1,13 @@
 from get_csv_shares import get_shares
 from itertools import combinations
 
+"""
+This function will generate all possible shares combinations with a share list.
+Parameter:
+    shares (list): A list of shares dictionnaries {'name': str, 'price': int or float, 'profit': int or float}
+Returns:
+    res (dict): The combination that generate the best gains while we invest less than 500€
+"""
 def brutforce(shares):
     res = {'shares': [],'price': 0,'gains': 0, 'profit': 0}
     for i in range(2, len(shares)+1):

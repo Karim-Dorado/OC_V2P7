@@ -1,5 +1,12 @@
 from get_csv_shares import get_shares
 
+"""
+This function will sort a share list by profit and add the best shares while our invest is less than 500€.
+Parameter:
+    shares (list): A list of shares dictionnaries {'name': str, 'price': int or float, 'profit': int or float}
+Returns:
+    res (dict): The combination of shares that has been generated
+"""
 def greedy(shares):
     res = {'shares': [],'price': 0,'gains': 0, 'profit': 0}
     limit = 500

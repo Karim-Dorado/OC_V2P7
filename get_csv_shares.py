@@ -1,5 +1,6 @@
 from csv import DictReader
 
+"""Convert a csv file into a list of dictionaries"""
 def get_shares(file):
     shares = []
     with open(file, 'r', encoding='utf8') as my_file:
