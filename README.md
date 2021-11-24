@@ -2,7 +2,7 @@
 
 ## Solving problems using algorithms with Python
 
-### Description of application
+### Description of the application
 
 This project consist to developp an application witch can choose the best combinaison of shares from a share list.
 
