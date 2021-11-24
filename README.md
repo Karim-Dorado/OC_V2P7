@@ -12,13 +12,13 @@ This project consist to developp an application witch can choose the best combin
     - profit (int or float) -> percentage of the profit generate by the share
 
 2. You can run 3 apps:
-  - brutforce.py: will generate the best combination from `data/brutforce.csv`
-  - optimized.py: will use a greedy algorithm to generate a combination from `data/brutforce.csv`
-  - main.py: will use a greedy algorithm to generate a combination from `data/dataset1.csv` and `data/dataset2.csv`
+    - brutforce.py: will generate the best combination from `data/brutforce.csv`
+    - optimized.py: will use a greedy algorithm to generate a combination from `data/brutforce.csv`
+    - main.py: will use a greedy algorithm to generate a combination from `data/dataset1.csv` and `data/dataset2.csv`
 
 3. You can also use:
-  - time_brut.py: will generate a graph which give us the execution time of the brutforce algorithm in function of the number of shares
-  - time_opti.py: will generate a graph which give us the execution time of the optimized algorithm in function of the number of shares
+    - time_brut.py: will generate a graph which give us the execution time of the brutforce algorithm in function of the number of shares
+    - time_opti.py: will generate a graph which give us the execution time of the optimized algorithm in function of the number of shares
 
 
 ### Setup
